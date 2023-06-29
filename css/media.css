@@ -1,0 +1,83 @@
+@media (max-width: 767.99px) {
+  .header__container {
+    flex-direction: column;
+  }
+
+  .header__right {
+    margin-top: 30px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .hero__title {
+    font-size: 70px;
+    line-height: 84px;
+  }
+
+  .grid {
+    grid-template-columns: auto;
+    row-gap: 40px;
+  }
+
+  :root {
+    --offset: 60px;
+  }
+
+  .portfolio__list li:nth-child(even) div:first-of-type {
+    order: 1;
+  }
+
+  .portfolio__list li:nth-child(even) div:last-of-type {
+    order: 2;
+  }
+
+  .portfolio-item:not(:last-child) {
+    margin-bottom: 60px;
+  }
+
+  .footer {
+    padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 575.99px) {
+  .hero__title {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .hero {
+    height: auto;
+    min-height: 600px;
+    padding-top: 200px;
+  }
+
+  .about__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .about__title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .quote__text {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  :root {
+    --offset: 30px;
+  }
+
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .about__play {
+    width: 70px;
+  }
+}
